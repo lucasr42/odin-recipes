@@ -1,20 +1,38 @@
-h1 {
-    border: 3px solid red;
+.header {
+    border: 3px solid rgb(192, 226, 43);
     text-align: center;
     padding: 10px;
     margin: 0px auto;
-    width: fit-content;
+    background-color: aqua;
+    font-size: 175%
+}
+
+h1 {
+    color: rebeccapurple;
 }
 
 h3 {
-    text-align: center;
-    width: fit-content;
-    margin: 15px auto;
+    color: rgb(218, 4, 200);
 }
 
 ul {
-    border: 3px dashed blueviolet;
-    margin: 10px auto;
-    width: fit-content;
+    border: 3px dashed rgb(192, 226, 43);
+    margin: 15px auto;
+    width: 350px;
     padding: 15px;
+    background-color: #FF9999;
+}
+
+li{
+    color:rgb(218, 4, 200);
+    background-color: rgb(192, 226, 43);
+    padding: 5px;
+    align-items: center;
+    list-style-position: inside;
+    font-size: 200%;
+}
+
+.footerGrass {
+    height: 100%;
+    width: 100%;
 }
