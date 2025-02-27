@@ -45,6 +45,16 @@ li {
     align-items: center;
 }
 
+.flexContainerVert {
+    border: 3px solid peachpuff;
+    margin: 15px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
 .boxFormat {
     border: 3px dotted rgb(9, 214, 118);
     background-color: rgba(203, 218, 5, 0.838);
@@ -54,4 +64,14 @@ li {
 .flexTwo {
     width: 100px;
     height: 150px;
+}
+
+.flexFour {
+    flex-grow: 2;
+}
+
+.flexFive {
+    width: 150px;
+    height: 100px;
+    align-self: flex-end;
 }
