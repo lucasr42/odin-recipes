@@ -61,6 +61,12 @@ li {
     padding: 15px;
 }
 
+.flexOne:hover {
+    width: auto;
+    height: 250px;
+    background-color: darkcyan;
+}
+
 .flexTwo {
     width: 100px;
     height: 150px;

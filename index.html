@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Odin Recipe - Home</title>
     <link rel="stylesheet" href="stylesheet.css" />
+    <script>
+        const handleMouseOver = () => {
+            document.getElementById("lasagna").style.color = "blue";
+        }
+        const handleMouseOut = () => {
+            document.getElementById('lasagna').style.color = "white";
+        }
+    </script>
 </head>
 <body>
     <div class="header">
@@ -12,7 +20,7 @@
         <h3>📢Recipes Here! Getchya Recipes Hyair!📢</h3>
     </div>
     <ul>
-        <li class="lasagna">
+        <li class="lasagna" id="lasagna" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
             <a href="./recipes/lasagna.html">Lasagna Recipe</a>
         </li><br>
         <li class="pizza">
@@ -22,6 +30,9 @@
             <a href="./recipes/taco.html">Taco Recipe</a>
         </li><br>
     </ul>
+    <script>
+        
+    </script>
     <div class="flexContainer">
         <p class="flexOne boxFormat">Box 1</p>
         <p class="flexTwo boxFormat">Box 2</p>
