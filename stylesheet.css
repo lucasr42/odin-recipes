@@ -30,6 +30,12 @@ li {
     align-items: center;
     list-style-position: inside;
     font-size: 200%;
+    
+}
+
+li:hover {
+    /* transform: scale(1.2); */
+    font-size: 225%;
 }
 
 .footerGrass {
